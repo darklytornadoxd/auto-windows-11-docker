@@ -20,8 +20,8 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      RAM_SIZE: "6G"
-      CPU_CORES: "2"
+      RAM_SIZE: "28"
+      CPU_CORES: "8"
       VERSION: "win11"
     devices:
       - /dev/kvm
